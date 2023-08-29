@@ -1,0 +1,49 @@
+#Student Result Management System - Software Requirements Specification (SRS)
+
+####1. Introduction
+- The Student Result Management System aims to revolutionize the way educational institutions handle and organize student academic data. 
+- By automating result-related processes, this software seeks to enhance accuracy, efficiency, and accessibility for administrators, educators, and students.
+
+####2. Product Purpose
+The purpose of the Student Result Management System is to provide a sophisticated solution for seamlessly managing student academic results within an educational ecosystem. This system's goal is to streamline the recording, storage, retrieval, and analysis of student performance data, ultimately leading to more informed decisions.
+
+####3. Scope
+- This system encompasses the following aspects:
+- Efficient management of student registration and enrollment information.
+- Comprehensive course and subject administration.
+- Hassle-free entry of student scores and subsequent result calculations.
+- Customized report generation, catering to individual student and class-wide perspectives.
+- Role-based access control for administrators, teachers, and students.
+- Robust data security mechanisms and periodic data backup.
+
+####4. Overall Description
+ The Student Result Management System is a browser-based application, accessible across various web browsers. Leveraging a dedicated database, it securely stores student particulars, course specifics, and result data. The system guarantees user authentication, ensuring the confidentiality of data. Its interface is designed for optimal user-friendliness, promoting ease of use.
+####5. User Needs
+- The system addresses the following user needs:
+- Administrative personnel require an efficient means to oversee student records and academic outcomes.
+- Educators demand an intuitive platform for inputting student marks and producing insightful reports.
+- Students seek access to their individual result data to monitor their academic progress actively.
+
+####6. Functional Requirements
+#####6.1 Student Management
+- Enable administrators to seamlessly register and manage student profiles.
+- Assign unique student identifiers during registration.
+- Store comprehensive student data, encompassing personal details, enrollment history, and academic records.
+
+#####6.2 Course and Subject Management
+- Empower administrators to define courses and their corresponding subjects.
+- Facilitate the association of subjects with respective courses and instructors.
+
+#####6.3 Result Entry and Calculation
+- Provide teachers with a streamlined interface for entering student scores across subjects.
+- Automatically calculate cumulative scores, grades, and GPA using predefined grading criteria.
+- Execute real-time computations for individual student results.
+
+#####6.4 Report Generation
+- Generate comprehensive student result cards, presenting a detailed breakdown of subject-wise performances.
+- Produce aggregated class-wise reports, catering to both educators and administrators.
+- Present graphical representations of student academic trajectories.
+
+#####6.5 User Roles and Access Control
+- Implement a flexible access control system, distinguishing between administrators, educators, and students.
+- Allow administrative personnel to manage user accounts and assign relevant roles.
